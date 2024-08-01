@@ -1,0 +1,308 @@
+@import url('http://fonts.cdnfonts.com/css/mofaze-del-monte');
+@import url('http://fonts.cdnfonts.com/css/clarika-geometric');
+@import url('http://fonts.cdnfonts.com/css/gellix');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css');
+
+table{
+    border-color: #0a0a0a;
+}
+
+body{
+    overflow-x: hidden;
+    
+}
+
+.btn-outline-dark:hover{
+    color:   #44342d !important;
+    background-color:  #9A8C71 !important;
+    border-color:  #9A8C71 !important; 
+}
+
+.btn-outline-primary:hover{
+    color:   #0a0a0a !important;
+    background-color:  #EDE6DB !important;
+    border-color:  #0a0a0a !important; 
+}
+
+.btn-outline-dark2:hover{
+    color:   #EDE6DB !important;
+    background-color:  #44342d !important;
+    border-color:  #EDE6DB!important; 
+}
+
+.btn-outline-dark3:hover{
+    color:   #44342d !important;
+    background-color:  #EDE6DB !important;
+    border-color:  #9A8C71       !important; 
+}
+
+.checked {
+    color: orange;
+  }
+
+.bgcolor3{
+    background-color:  #EDE6DB;
+}
+
+.bgcolor4{
+    background-color:  #D4D3CF;
+}
+
+.bgcolor2{
+    background-color:  #44342d;
+}
+
+/* Logo Title */
+
+.logo-title{
+    font-family: 'MOFAZE DEL MONTE', sans-serif;
+    font-size: xx-large;
+    letter-spacing: 6px;
+}
+
+.title{
+    font-family: 'MOFAZE DEL MONTE', sans-serif;
+    letter-spacing: 3px;
+    color: #0a0a0a;
+}
+
+.nav-font{
+    font-family: 'Clarika Geometric', sans-serif;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px;
+    color:  #0a0a0a;
+
+}
+
+nav{
+    background-color: #EDE6DB;
+}
+
+nav li:after{
+    content: '';
+    display: block;
+      border-bottom: 2px solid #0a0a0a;
+      transform: scaleX(0);
+      transition: .2s ease-in-out;
+  }
+  nav li:hover:after{
+     transform: scaleX(1);
+  }
+
+.content{
+    font-family: 'Gellix', sans-serif;
+    color: #F9F6F1;
+    font-size: 16px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+/* Banner */
+.banner-font{
+    font-family: 'MOFAZE DEL MONTE', sans-serif;
+    font-size: 90px;
+    color: #F9F6F1;
+    text-align: center;
+    margin-top: 55px;
+}
+
+.bannerbg{
+    background-image: url(img/beautybanner1.png);
+    background-color: #417D7A;
+    height: 90vh;
+    background-size: cover;
+}
+
+/* Icons banner */
+.icons-subtitle{
+    font-family: 'Clarika Grotesque', sans-serif;
+    color: #0a0a0a;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.caption{
+    font-family: 'Gellix', sans-serif;
+    color: #0a0a0a;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* Banner 2 */
+
+.banner2{
+    background-image: url('img/banner2bg.png');
+    height:75vh;
+}
+
+/* 5 column bg */
+
+.bgcol5-1{
+    background-image: url(img/col1.png);
+}
+.bgcol5-2{
+    background-image: url(img/col2.png);
+}
+.bgcol5-3{
+    background-image: url(img/col3.png);
+}
+.bgcol5-4{
+    background-image: url(img/col4.png);
+}
+.bgcol5-5{
+    background-image: url(img/col5.png);
+}
+  
+/* Footer */
+._12 {
+    font-size: 1.2em;
+}
+._14 {
+    font-size: 1.4em;
+}
+
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #EDE6DB;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+    color: #EDE6DB;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #EDE6DB;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+    color: #EDE6DB;
+}
+.fa-instagram {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #EDE6DB;
+}
+.fa-instagram:hover {
+    background-color: #eb3188;
+    color: #EDE6DB;
+}
+
+/* Scrollbar customized */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  /* Footer */
+
+.footer {
+    background-color: #2B221D;
+  }
+
+.footer-half{
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 4px double #ff00ff;
+}
+
+/* Footer Socmed */
+
+.btn-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 22px;
+    line-height: 50px; 
+}
+.btn-outline {
+    margin-top: 15px;
+    border: solid 2px #fff;
+    font-size: 20px;
+    color: #fff;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+.list-inline {
+  list-style-type:none;
+}
+.list-inline a:hover{
+	transition: .7s;
+	background:rgba(255,255,255, .7);
+	border-radius:0px; 
+  color:#000;
+  transform:rotate(360deg);
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .img-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .carousel-caption{
+    transform: translateY(-50%);
+    bottom: initial;
+    top: 52%;
+}
